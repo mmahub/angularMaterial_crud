@@ -13,6 +13,9 @@ const Genre = mongoose.model( 'Genre', new mongoose.Schema({
     required: true,
     minlength: 1,
     maxlength: 50
+  },
+  genreImage: {     //this will help in getting the saved images retrieve
+    type: String
   }
 }));
 

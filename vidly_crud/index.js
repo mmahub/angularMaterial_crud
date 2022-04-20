@@ -12,6 +12,7 @@ mongoose.connect('mongodb://localhost/vidly_crud')
   .catch(err => console.error('Could not connect to MongoDB...'));
 
 app.use(express.json());
+app.use('/uploads', express.static('uploads'));   //here we are making projects statisFiles(uploads in our case) puclic to everyone; now goto loca host and paste imgae path you will get that image. e.g: http://localhost:3000/uploads\\1650458754747s1.PNG
 app.use('/api/genres', genres);
 app.use('/api/customers', customers);
 
