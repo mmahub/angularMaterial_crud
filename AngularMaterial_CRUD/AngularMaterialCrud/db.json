@@ -1,0 +1,59 @@
+{
+  "productList": [
+    {
+      "productName": "Grapes",
+      "category": "Fruites",
+      "freshness": "Brand New",
+      "price": 100,
+      "comment": "this is fruit..",
+      "date": "2022-04-23T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Apple",
+      "category": "Vegetables",
+      "freshness": "Refurbished",
+      "price": 150,
+      "comment": "Fresh fruit apple.  ",
+      "date": "2022-04-24T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "iefvdkay",
+      "category": "Fruites",
+      "freshness": "Refurbished",
+      "price": 222,
+      "comment": "afsfsef",
+      "date": "2022-04-12T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "adfads",
+      "category": "Vegetables",
+      "freshness": "Second Hand",
+      "price": 4353,
+      "comment": "dfsdfd",
+      "date": "2022-04-11T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "dfcsasd",
+      "category": "Electronics",
+      "freshness": "Second Hand",
+      "price": 123,
+      "comment": "sdfdsfsf",
+      "date": "2022-04-03T18:30:00.000Z",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
